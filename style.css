@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#game {
+  width: 600px;
+  height: 600px;
+  background-color: rgb(200, 200, 200);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
